@@ -6,12 +6,12 @@ public class Arvauspeli {
        Scanner in = new Scanner(System.in);
 
         Random rand = new Random();
-        String arvo = "k"
+        String arvo = "k";
  
-        Int eka = rand.nextInt(10);
-        Int toka = rand.nextInt(10);
-        Int kolmas = rand.nextInt(10);
-        Int raha;
+        int eka = rand.nextInt(10);
+        int toka = rand.nextInt(10);
+        int kolmas = rand.nextInt(10);
+        int raha;
 
 
         while (true) {
