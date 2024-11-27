@@ -20,7 +20,7 @@ public class Arvauspeli {
             raha = in.nextInt();
 
             raha--;
-            System.out.println("Yksi rahayksikkö vähennetty. Rahaa jäljellä: " + raha);
+            System.out.println("Yksi yksikkö rahaa vähennetty. Rahaa jäljellä: " + raha);
 
             if (raha <= 0) {
                 System.out.println("rahat loppui");
