@@ -1,5 +1,5 @@
-import java.util.Scanner;
 import java.util.Random;
+import java.util.Scanner;
 
 public class Arvauspeli {
     public static void main(String[] args) {
@@ -23,12 +23,12 @@ public class Arvauspeli {
             System.out.println("Yksi yksikkö rahaa vähennetty. Rahaa jäljellä: " + raha);
 
             if (raha <= 0) {
-                System.out.println("rahat loppui");
+                System.out.println("Rahat loppui!");
                 break;
             }
 
             if (raha >= 1 && raha <= 5) {
-                System.out.println("Congratulations!");
+                System.out.println("Onneksi olkoon!");
                 System.out.println(".");
                 break;    
             } 
